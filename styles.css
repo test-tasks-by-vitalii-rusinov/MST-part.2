@@ -1,0 +1,84 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 5vw;
+  font-weight: 900;
+  line-height: 10vw;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.str {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1vw;
+}
+
+span {
+  color: white;
+  z-index: 10;
+}
+
+.hole {
+  position: absolute;
+  height: 5vw;
+  transform: translate(-50% -50%);
+  border-top: 2.6vw solid black;
+  border-bottom: 2.6vw solid black;
+  background-color: transparent;
+}
+
+.hole1 {
+  top: 0;
+  left: 0;
+  width: calc(100vw - 19ch);
+  border-left: 11ch solid black;
+  border-right: 8ch solid black;
+}
+
+.hole2 {
+  top: 10vw;
+  left: 0;
+  width: calc(100vw - 23ch);
+  border-left: 8ch solid black;
+  border-right: 15ch solid black;
+}
+
+.hole3 {
+  top: 20vw;
+  left: 0;
+  width: calc(100vw - 20ch);
+  border-left: 10ch solid black;
+  border-right: 10ch solid black;
+}
+
+.hole4 {
+  top: 30vw;
+  left: 0;
+  width: calc(100vw - 13ch);
+  border-left: 12ch solid black;
+  border-right: 1ch solid black;
+  border-bottom: calc(100vh - 37.5vw) solid black;
+}

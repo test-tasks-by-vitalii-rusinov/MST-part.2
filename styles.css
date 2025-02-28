@@ -82,3 +82,49 @@ span {
   border-right: 1ch solid black;
   border-bottom: calc(100vh - 37.5vw) solid black;
 }
+
+@media (max-width: 767px) {
+  .hole1 {
+    top: 0;
+    left: 0;
+    width: calc(100vw - 12ch);
+    border-left: 11ch solid black;
+    border-right: 1ch solid black;
+  }
+  
+  .hole2 {
+    top: 10vw;
+    left: 0;
+    width: calc(100vw - 9ch);
+    border-left: 3ch solid black;
+    border-right: 6ch solid black;
+  }
+  
+  .hole3 {
+    top: 20vw;
+    left: 0;
+    width: calc(100vw - 14ch);
+    border-left: 13ch solid black;
+    border-right: 1ch solid black;
+    border-bottom: 7.6vw solid black;
+  }
+
+  .hole4 {
+    top: 35vw;
+    left: 0;
+    width: calc(100vw - 14ch);
+    border-left: 4ch solid black;
+    border-right: 10ch solid black;
+    border-top: 7.6vw solid black;
+    border-bottom: 2.6vw solid black;
+  }
+  
+  .hole5 {
+    top: 50vw;
+    left: 0;
+    width: calc(100vw - 13ch);
+    border-left: 12ch solid black;
+    border-right: 1ch solid black;
+    border-bottom: calc(100vh - 57.5vw) solid black;
+  }
+}
